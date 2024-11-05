@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-const defaultTheme = require("tailwindcss/defaultTheme");
+const defaultTheme = require('tailwindcss/defaultTheme');
 
 const generateSizeClass = (upToSize, startAt = 80) => {
   const classes  = {};
@@ -12,12 +12,12 @@ const generateSizeClass = (upToSize, startAt = 80) => {
 
 module.exports = {
   content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
+    './src/**/*.{js,jsx,ts,tsx}',
   ],
   theme: {
     screens: {
-      "xxs": "300px",
-      "xs": "475px",
+      'xxs': '300px',
+      'xs': '475px',
       ...defaultTheme.screens
     },
     extend: {
@@ -27,11 +27,11 @@ module.exports = {
       maxWidth: generateSizeClass(1024, 0),
       minWidth: generateSizeClass(1024, 0),
       borderWidth: {
-        "1": "1px"
+        '1': '1px'
       }
     },
   },
   plugins: [
-    require("@tailwindcss/forms")
+    require('@tailwindcss/forms')
   ],
 }
