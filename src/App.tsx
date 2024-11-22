@@ -1,6 +1,6 @@
 import { HiOutlineHome } from 'solid-icons/hi'
 import { RiUserFacesUserLine } from 'solid-icons/ri'
-import { CgMoreR } from 'solid-icons/cg'
+import { CgMore, CgMoreR } from 'solid-icons/cg'
 import { ImNotification } from 'solid-icons/im'
 import { VsCompass } from 'solid-icons/vs'
 import { Component } from 'solid-js'
@@ -9,7 +9,6 @@ const App: Component = () => {
   return (
     <div class='w-full h-full bg-[#fff] text-[#000]'>
       <div class='flex h-full min-h-252'>
-        {/* SIDEBAR START */}
         <header class='lg:flex-grow flex-it items-end'>
           <div class='xl:w-80 w-20 flex-it'>
             <div class='h-full fixed flex-it top-0'>
@@ -74,7 +73,6 @@ const App: Component = () => {
                       </a>
                     </nav>
                   </div>
-                  {/* GLIDER SEND-MESSAGE BUTTON */}
                   <div class='my-1 flex-it w-10/12 cursor-pointer'>
                     <div class='bg-[#ff4500] hover:bg-[#000] text-[#fff] font-bold py-2 px-4 rounded-full flex-it transition'>
                       <div class='flex-it flex-row text-xl font-bold text-[#fff] items-start justify-center truncate duration-200'>
@@ -83,32 +81,28 @@ const App: Component = () => {
                     </div>
                   </div>
                 </div>
-                {/* PROFILE MENU */}
                 <div class='flex-it my-3 hover:cursor-pointer'>
-                  {/* POPUP START*/}
-                  <div class="flex-it items-center flex-row p-3 rounded-3xl hover:bg-gray-800 hover:rounded-3xl transition duration-200 cursor-pointer">
+                  <div class="flex-it items-center flex-row p-3 rounded-3xl hover:text-[#fff] hover:bg-[#ff4500] hover:rounded-3xl transition duration-200 cursor-pointer">
                     <div class="flex-it">
                       <div class="w-10 h-10 overflow-visible">
                         <img
                           class="rounded-full"
-                          src="https://www.pinclipart.com/picdir/middle/133-1331433_free-user-avatar-icons-happy-flat-design-png.png"
+                          src="/billy.png"
                         ></img>
                       </div>
                     </div>
                     <div class="flex-it xl:flex hidden flex-grow flex-row justify-between items-center">
-                      <div class="flex-it mx-3 font-bold">Filip99</div>
+                      <div class="flex-it mx-3 font-bold">Nick</div>
                       <div class="flex-it">
-                        <FiMoreHorizontal />
+                        <CgMore />
                       </div>
                     </div>
                   </div>
-                  {/* POPUP END */}
                 </div>
               </div>
             </div>
           </div>
         </header>
-        {/* SIDEBARS END */}
         <main class='flex-it flex-grow flex-shrink items-start'>
           <div class='flex md:w-248 w-full h-full'>
             <div class='flex-it flex-grow flex-shrink'>
@@ -119,10 +113,8 @@ const App: Component = () => {
                       Home
                     </div>
                   </div>
-                  {/* Children */}
                 </div>
                 <div class='flex-it md:w-92 w-0 mt-4'>
-                  {/* TRENDS SIDEBAR START */}
                   <div class='bg-[#000] text-[#fff] overflow-hidden flex-it rounded-2xl'>
                     <div class='flex-it p-4'>
                       <span class='text-xl font-bold'>Trends</span>
@@ -182,7 +174,6 @@ const App: Component = () => {
                       </div>
                     </div>
                   </div>
-                  {/* TRENDS SIDEBAR END */}
                 </div>
               </div>
             </div>
@@ -190,7 +181,7 @@ const App: Component = () => {
         </main>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default App;
+export default App
