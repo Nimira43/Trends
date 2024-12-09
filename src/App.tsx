@@ -122,55 +122,55 @@ const App: Component = () => {
                     <div class='flex-it p-4 cursor-pointer transition duration-200 hover:bg-[#ff4500]'>
                       <div class='flex-it'>
                         <span class='text-[#fff] text-sm'>
-                          Trends in Europe
+                          Trending in Germany
                         </span>
-                        <span class='text-lg font-bold hover:text-[#000] transition duration-200'>Sports</span>
-                        <span class='text-[#fff] text-sm'>10 000 glides</span>
+                        <span class='text-lg font-bold hover:text-[#000] transition duration-200'>Politics - Tax Scandal Hits Scholz</span>
+                        <span class='text-[#fff] text-sm'>175,383 likes</span>
                       </div>
                     </div>
                     <div class='flex-it p-4 cursor-pointer transition duration-200 hover:bg-[#ff4500]'>
                       <div class='flex-it'>
                         <span class='text-[#fff] text-sm'>
-                          Trends in Europe
+                          Trending in the World
                         </span>
-                        <span class='text-lg font-bold hover:text-[#000] transition duration-200'>Sports</span>
-                        <span class='text-[#fff] text-sm'>10 000 glides</span>
+                        <span class='text-lg font-bold hover:text-[#000] transition duration-200'>Formula 1 - McLaren Clinch Constructors Title</span>
+                        <span class='text-[#fff] text-sm'>399,482 likes</span>
                       </div>
                     </div>
                     <div class='flex-it p-4 cursor-pointer transition duration-200 hover:bg-[#ff4500]'>
                       <div class='flex-it'>
                         <span class='text-[#fff] text-sm'>
-                          Trends in Europe
+                          Trending in Brazil
                         </span>
-                        <span class='text-lg font-bold hover:text-[#000] transition duration-200'>Sports</span>
-                        <span class='text-[#fff] text-sm'>10 000 glides</span>
+                        <span class='text-lg font-bold hover:text-[#000] transition duration-200'>Fashion - Favela High Art</span>
+                        <span class='text-[#fff] text-sm'>193,259 likes</span>
                       </div>
                     </div>
                     <div class='flex-it p-4 cursor-pointer transition duration-200 hover:bg-[#ff4500]'>
                       <div class='flex-it'>
                         <span class='text-[#fff] text-sm'>
-                          Trends in Europe
+                          Trending in India
                         </span>
-                        <span class='text-lg font-bold hover:text-[#000] transition duration-200'>Sports</span>
-                        <span class='text-[#fff] text-sm'>10 000 glides</span>
+                        <span class='text-lg font-bold hover:text-[#000] transition duration-200'>Economics - Farmers Not Happy with BJP</span>
+                        <span class='text-[#fff] text-sm'>225,268 likes</span>
                       </div>
                     </div>
                     <div class='flex-it p-4 cursor-pointer transition duration-200 hover:bg-[#ff4500]'>
                       <div class='flex-it'>
                         <span class='text-[#fff] text-sm'>
-                          Trends in Europe
+                          Trends in Sierra Leone
                         </span>
-                        <span class='text-lg font-bold hover:text-[#000] transition duration-200'>Sports</span>
-                        <span class='text-[#fff] text-sm'>10 000 glides</span>
+                        <span class='text-lg font-bold hover:text-[#000] transition duration-200'>News - Mass Ebola Vaccination Begins</span>
+                        <span class='text-[#fff] text-sm'>129,931 likes</span>
                       </div>
                     </div>
                     <div class='flex-it p-4 cursor-pointer transition duration-200 hover:bg-[#ff4500]'>
                       <div class='flex-it'>
                         <span class='text-[#fff] text-sm'>
-                          Trends in Europe
+                          Trends in Australia
                         </span>
-                        <span class='text-lg font-bold hover:text-[#000] transition duration-200'>Sports</span>
-                        <span class='text-[#fff] text-sm'>10 000 glides</span>
+                        <span class='text-lg font-bold hover:text-[#000] transition duration-200'>Energy - Debate Over Australia's Energy Future</span>
+                        <span class='text-[#fff] text-sm'>152,638 likes</span>
                       </div>
                     </div>
                   </div>
